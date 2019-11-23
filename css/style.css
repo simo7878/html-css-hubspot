@@ -6,16 +6,19 @@
 
 body {
   font-family: Roboto, sans-serif;
+  background-color: #f5f8fa;
 }
-
 
 .page-header {
   height: 640px;
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
 
-
+.navbar {
+  margin: 0 auto;
+  width: 80%;
 }
 
 .page-header:after {
@@ -28,7 +31,6 @@ body {
 .row-top {
   width: 100%;
   height: 10%;
-  margin-top: 0 auto;
   background-color: #f4f9fd;
   border-bottom: 1px solid grey;
 }
@@ -65,13 +67,37 @@ body {
   margin-top: 20px;
 }
 
+/*.button-row-top .button-white  a{
+  background-color: white;
+  padding: 20px;
+}*/
+
+/*.button-row-top .button-orange a {
+  background-color: orange;
+  padding
+}*/
+
+
 .list-inline li {
   display: inline;
   padding: 0 10px;
 }
 
+.a {
+
+}
+
+
+
+.row-container {
+    margin: 0px auto;
+    width: 80%;
+    /*padding-top: 14px;*/
+    margin-top: 20px;
+}
 .row-bottom {
   height: 10%;
+  width: 100%;
   background-color: white;
 }
 
@@ -82,6 +108,7 @@ body {
 }
 
 .hubspot_logos img {
+  float:left;
   position: relative;
   height: 100%;
   width: 40%;
@@ -117,7 +144,7 @@ body {
   text-align: left;
 }
 
-#button-orange {
+/*#button-orange {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -125,7 +152,7 @@ body {
   padding: 10px 20px;
   border-radius:4px;
   background: #fd7a5a;
-}
+}*/
 
 .row-green {
   position: absolute;
@@ -137,17 +164,49 @@ body {
   border-bottom: 1px solid #33475c;
 }
 
-main {
-  background-color: #f5f8fa;
-}
 .main-top {
-  width: 80%;
-
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  text-align: center;
+  margin: 10% 15%;
 }
 
 .main-top img {
-  height: 20%;
-  width: 20%;
-  margin-left: 50%;
-  margin-top: 10%;
+  width: 30%;
+}
+
+.main-top h1 {
+  font-size: 40px;
+  color: #33475b;
+}
+
+.main-top p {
+  font-size: 18px;
+  color:  #33475b;
+  padding: 30px 60px;
+  line-height: 35px;
+}
+
+.free-hubspot-crm {
+  position: absolute;
+  height: 60%;
+  width: 80%;
+  margin: 40% 10%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #e0dede;
+
+}
+
+.free-hubspot-crm:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.free-hubspot-crm img {
+  position: relative;
+  width: 15%;
+  float:left;
 }
