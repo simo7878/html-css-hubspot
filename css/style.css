@@ -5,47 +5,48 @@
 }
 
 body {
-font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 
 .page-header {
-height: 650px;
-background-image: url(../img/jumbotron.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-size:
+  height: 640px;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
 }
 
 .page-header:after {
-content: '';
-display: table;
-clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 
 .row-top {
-position: relative;
-width: 100%;
-height: 10%;
-background-color: #f4f9fd;
-border-bottom: 1px solid grey;
+  width: 100%;
+  height: 10%;
+  margin-top: 0 auto;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid grey;
 }
 
 .row-top:after {
-content: '';
-display: table;
-clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .nav-left-top {
-  position: absolute;
-  width: 50%;
+  position: relative;
+  width: 40%;
   float: left;
-
   height: 100%;
   text-align: left;
-  margin-top: 10px;
+  margin-left: 10%;
+  margin-top: 20px;
 }
 
 .list-inline li{
@@ -55,13 +56,13 @@ clear: both;
 }
 
 .nav-right-top {
-  position: absolute;
-  width: 50%;
+  position: relative;
+  width: 40%;
   float: right;
-
   height: 100%;
   text-align: right;
-  margin-top: 10px;
+  margin-right: 10%;
+  margin-top: 20px;
 }
 
 .list-inline li {
@@ -70,32 +71,35 @@ clear: both;
 }
 
 .row-bottom {
-height: 10%;
-background-color: white;
+  height: 10%;
+  background-color: white;
 }
 
 .row-bottom:after {
-content: '';
-display: table;
-clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .hubspot_logos img {
-height: 50%;
+  position: relative;
+  height: 100%;
+  width: 40%;
+  margin-left: 10%;
+
 }
 
 .nav-right-bottom {
+  position: relative;
   float: right;
-  width: 100%;
-  margin-right: 10%;
   height: 100%;
+  width: 40%;
+  margin-right: 10%;
   text-align: right;
-  margin-bottom: 0 auto;
+  margin-bottom: 20px;
 }
 
-
 .banner {
-  position: absolute;
   width: 40%;
   height: 50%;
   margin-left: 5%;
@@ -128,7 +132,22 @@ height: 50%;
   width: 100%;
   height: 10%;
   background-color: #5fe4e3;
-  margin-top: 34%;
+  margin-top: 7.5%;
+  border-top: 2px solid #33475c;
+  border-bottom: 1px solid #33475c;
+}
 
+main {
+  background-color: #f5f8fa;
+}
+.main-top {
+  width: 80%;
 
+}
+
+.main-top img {
+  height: 20%;
+  width: 20%;
+  margin-left: 50%;
+  margin-top: 10%;
 }
