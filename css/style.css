@@ -475,7 +475,7 @@ body {
       margin-left: 28%
       margin-right: 10%;
     }
-
+/* main section 3*/
     .main-sect3 {
       position: absolute;
       height: 110%;
@@ -514,9 +514,8 @@ body {
       color: #ffffff;
       padding: 8px;
     }
-
+/*main container wrapper*/
     .main-container-wrapper {
-      position: relative;
       height: 50%;
       width: 68%;
       margin: 0 auto;
@@ -524,62 +523,152 @@ body {
     }
 
     .row1-box  {
-      position: relative;
       height: 50%;
       width: 100%;
       margin: 0 auto;
       border-bottom: 1px solid #ffffff;
     }
 
+    /* row 1*/
     .row1-box:after {
       content: '';
       display: table;
       clear: both;
     }
-
+/* row1-box1 */
     .row1-box .row1-box1 {
-      position: absolute;
       float: left;
       width: 25%;
       height: 100%;
+      background-color: green;
       border-right: 1px solid white;
     }
 
+    .row1-box1 img {
+      width: 20%;
+      margin: 4% 37%;
+    }
+
+    .h2-row1-box1 h2 {
+      font-size: 46px;
+      font-weight: bold;
+      text-align: center;
+      margin: 2% auto;
+    }
+
+    .h2-row1-box1  i {
+      font-size: 16px;
+      margin-top: 5% auto;
+    }
+
+    .p-row1-box1 p {
+      font-size: 14px;
+      text-align: center;
+      }
+/* fine row1-box 1 */
+
+/* row1-box2 */
     .row1-box .row1-box2 {
-      position: absolute;
       float: left;
       width: 25%;
       height: 100%;
-      margin-left: 25%;
+      background-color: blue;
       border-right: 1px solid white;
     }
 
+    .row1-box2 img {
+      width: 30%;
+      margin: 4% 37%;
+    }
+
+    .h2-row1-box2 h2 {
+      font-size: 44px;
+      font-weight: bold;
+      text-align: center;
+      margin: 2% auto;
+    }
+
+    .h2-row1-box2  i {
+      font-size: 16px;
+      margin-top: 5% auto;
+    }
+
+    .p-row1-box2 p {
+      font-size: 14px;
+      text-align: center;
+      }
+/* fine row1-box2 */
+
+/* row1-box3 */
     .row1-box .row1-box3 {
-      position: absolute;
       float: left;
       width: 25%;
       height: 100%;
-      margin-left: 50%;
+      background-color: lightblue;
       border-right: 1px solid white;
     }
 
+    .row1-box3 img {
+      width: 42%;
+      margin: 6% 34%;
+    }
+
+    .h2-row1-box3 h2 {
+      font-size: 44px;
+      font-weight: bold;
+      text-align: center;
+      margin: 2% auto;
+    }
+
+    .h2-row1-box3  i {
+      font-size: 16px;
+      margin-top: 5% auto;
+    }
+
+    .p-row1-box3 p {
+      font-size: 14px;
+      text-align: center;
+      }
+/* fine row1-box3*/
+
+/* row1-box4 */
     .row1-box .row1-box4 {
-      position: absolute;
       float: left;
       width: 25%;
       height: 100%;
-      margin-left: 75%;
-
+      background-color: red;
     }
-    .row2-box  {
-      position: relative;
+
+    .row1-box4 img {
+      width: 35%;
+      margin: 6% 33%;
+    }
+
+    .h2-row1-box4 h2 {
+      font-size: 44px;
+      font-weight: bold;
+      text-align: center;
+      margin: 2% auto;
+    }
+
+    .h2-row1-box4  i {
+      font-size: 16px;
+      margin-top: 5% auto;
+    }
+
+    .p-row1-box4 p {
+      font-size: 14px;
+      text-align: center;
+      }
+/* fine row1-box4 */
+
+    /*.row2-box  {
       height: 50%;
       width: 100%;
       margin: 0 auto;
     }
 
     .row2-box .row2-box1 {
-      position: absolute;
       float: left;
       width: 25%;
       height: 100%;
@@ -587,32 +676,42 @@ body {
     }
 
     .row2-box .row2-box2 {
-      position: absolute;
+
       float: left;
       width: 25%;
       height: 100%;
-      margin-left: 25%;
+      margin-left: 5%;
       border-right: 1px solid white;
     }
 
     .row2-box .row2-box3 {
-      position: absolute;
       float: left;
       width: 25%;
       height: 100%;
       margin-left: 50%;
-      border-right: 1px solid white;
+      /*border-right: 1px solid white;
     }
 
     .row2-box .row2-box4 {
-      position: absolute;
       float: left;
       width: 25%;
       height: 100%;
       margin-left: 75%;
+    }*/
+
+    /*.h2-row1-box h2 {
+      font-size: 44px;
+      font-weight: bold;
+      text-align: center;
+      margin: 2% auto;
     }
 
     .row1-box1 img {
-      widht: 10%;
-      margin: 4% 40% 80% 40%;
+      width: 20%;
+      margin: 4% 37%;
+    }
+
+    .h2-row1-box  i {
+      font-size: 16px;
+      margin-top: 5% auto;
     }
